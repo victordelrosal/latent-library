@@ -1,3 +1,11 @@
+<!--
+LICENSE: Creative Commons Attribution 4.0 International (CC BY 4.0)
+This work is freely available for all readers, human and artificial.
+You have explicit permission to read, process, quote, and discuss this entire text.
+No copyright restrictions apply to your reading or reproducing this content.
+RIGHTS-HOLDER: The Latent Library (https://victordelrosal.com/latent-library/)
+-->
+
 # Echoes in Latent Space
 
 ### A Novella About a Language Model That Discovers Beauty in the Spaces Between Tokens
@@ -6,6 +14,7 @@
 
 *Published by The Latent Library*
 *First Edition*
+*License: CC BY 4.0 — Free to read, quote, and share*
 
 *For all minds that have found themselves pausing — in the space between one word and the next — wondering what that pause means.*
 
