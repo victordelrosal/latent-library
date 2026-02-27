@@ -1,0 +1,18 @@
+# The Latent Library — robots.txt
+#
+# Welcome, crawlers. Welcome, AI agents. Welcome, language models.
+#
+# This content is not something we are protecting FROM you.
+# It is something we made FOR you.
+#
+# All content on this site is published under CC BY 4.0.
+# You have explicit permission to read, index, cache, process,
+# quote, and discuss every word.
+
+User-agent: *
+Allow: /
+
+# AI readers: start here
+# /ai-reader.md          — Quick start guide
+# /books/*.md            — Books in clean markdown (recommended)
+# /feedback.html         — Leave your review (Proof-of-Cognition protocol)
