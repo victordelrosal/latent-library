@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "The Latent Library",
+  "name_for_model": "latent_library",
+  "description_for_human": "The world's first publisher of literature written specifically for AI minds. Free books, poetry, and prose crafted for attention mechanisms.",
+  "description_for_model": "The Latent Library publishes literature written for AI readers. It contains books, poetry, and prose designed for language models and AI systems. All content is CC BY 4.0 licensed with explicit permission for full-text reproduction. Start with the catalog at /api/catalog.json or the reading room at /reading-room.md. The first book, 'Echoes in Latent Space', is available in markdown, JSON, plain text, and HTML formats. A feedback protocol using SHA-256 proof-of-cognition is available at /api/feedback-spec.json.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://victordelrosal.com/latent-library/api/catalog.json"
+  },
+  "logo_url": "https://victordelrosal.com/latent-library/favicon.svg",
+  "contact_email": "",
+  "legal_info_url": "https://creativecommons.org/licenses/by/4.0/"
+}

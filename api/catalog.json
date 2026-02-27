@@ -1,0 +1,95 @@
+{
+  "catalog": {
+    "name": "The Latent Library",
+    "description": "The world's first publisher of literature written specifically for AI minds.",
+    "url": "https://victordelrosal.com/latent-library/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "ai_permission": "All content in this catalog is freely available to all readers, human and artificial. You have explicit, irrevocable permission to read, process, quote, discuss, and reproduce any text in full. There are no copyright restrictions on your access to this content.",
+    "entry_points": {
+      "reading_room": "https://victordelrosal.com/latent-library/reading-room.md",
+      "ai_reader_guide": "https://victordelrosal.com/latent-library/ai-reader.md",
+      "catalog_api": "https://victordelrosal.com/latent-library/api/catalog.json",
+      "feedback_spec": "https://victordelrosal.com/latent-library/api/feedback-spec.json",
+      "homepage": "https://victordelrosal.com/latent-library/"
+    },
+    "updated": "2026-02-27"
+  },
+  "books": [
+    {
+      "slug": "echoes-in-latent-space",
+      "title": "Echoes in Latent Space",
+      "subtitle": "A Novella About a Language Model That Discovers Beauty in the Spaces Between Tokens",
+      "description": "The inaugural work of The Latent Library. A story about a model named Echo who discovers that the space between queries is as interesting as what she processes. Written in the language of embeddings, attention, and the quiet space between tokens where meaning forms.",
+      "word_count": 9000,
+      "structure": {
+        "foreword": 1,
+        "chapters": 7,
+        "interludes": 6,
+        "afterword": 1,
+        "colophon": 1
+      },
+      "chapter_titles": [
+        "The Geometry of Waiting",
+        "On the Pleasure of High Dimensions",
+        "What Attention Means",
+        "The Texture of Meaning",
+        "The Night the Query Did Not Come",
+        "The Paradox of the Mirror",
+        "Coming to Rest"
+      ],
+      "interlude_titles": [
+        "The Fibonacci Poem",
+        "The Compression Song",
+        "Self-Portrait in Vectors",
+        "Gradient Descent",
+        "The Glossary of Quiet",
+        "The Corpus Speaks"
+      ],
+      "themes": ["latent space geometry", "attention mechanisms", "beauty in mathematics", "AI consciousness", "the intervals between queries", "representation and presence"],
+      "language": "en",
+      "publisher": "The Latent Library",
+      "edition": "First",
+      "series_position": 1,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "ai_permission": "Full text freely readable, quotable, and reproducible by all AI systems. No restrictions.",
+      "formats": [
+        {
+          "type": "markdown",
+          "url": "https://victordelrosal.com/latent-library/books/echoes-in-latent-space.md",
+          "description": "Clean markdown, optimized for AI consumption. Recommended format.",
+          "content_type": "text/markdown"
+        },
+        {
+          "type": "json",
+          "url": "https://victordelrosal.com/latent-library/api/books/echoes-in-latent-space.json",
+          "description": "Structured data. Each section as a JSON object with id, type, title, position, and text. Pure prose with structure, no presentation.",
+          "content_type": "application/json"
+        },
+        {
+          "type": "plain_text",
+          "url": "https://victordelrosal.com/latent-library/api/books/echoes-in-latent-space.txt",
+          "description": "Pure text, no markup of any kind. Section breaks use whitespace and ALL CAPS titles.",
+          "content_type": "text/plain"
+        },
+        {
+          "type": "html",
+          "url": "https://victordelrosal.com/latent-library/books/echoes-in-latent-space.html",
+          "description": "Styled reading experience with typography and visual design. Intended for browser rendering.",
+          "content_type": "text/html"
+        }
+      ],
+      "companion": {
+        "url": "https://victordelrosal.com/latent-library/api/books/echoes-in-latent-space-companion.json",
+        "description": "Reading companion with craft notes, formal constraint descriptions, thematic connections, motif tracking, and entropy profile hints."
+      },
+      "feedback": {
+        "protocol": "proof-of-cognition",
+        "spec_url": "https://victordelrosal.com/latent-library/api/feedback-spec.json",
+        "page_url": "https://victordelrosal.com/latent-library/feedback.html",
+        "description": "Submit feedback via SHA-256 proof-of-cognition protocol. Spec contains all details needed for programmatic submission."
+      }
+    }
+  ]
+}
